@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="viva2.css">
+        <link rel="stylesheet" href="viva.css">
+        <link rel="stylesheet" href="form.css">
+
+        <title>ST2 VIVA</title>
+    </head>
+    <body>
+       <!-- Navigation Bar -->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">LOGO</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt nav__icon'></i>
+                                <span class="nav__name">Home</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>
+                                <span class="nav__name">About Us</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contactme" class="nav__link">
+                                <i class='bx bx-message-square-detail nav__icon'></i>
+                                <span class="nav__name">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <img src="assets/img/perfil.png" alt="" class="nav__img">
+            </nav>
+        </header>
+        
+        <div class="property">
+                <section class="slideshow" style="height: 420px;">
+                   <span id="target-1"></span>
+                   <span id="target-2"></span>
+                   <span id="target-3"></span>
+                   <span id="target-4"></span>
+
+                   <div class="slideshow-item item-1">
+                      <div class="progress">1 of 4</div>
+                      <img src="a496c2b6bc5d7cfe0e0674f6598c38ad.jpg" alt="" />
+                      <a href="#target-4" class="arrow arrow-prev"></a>
+                      <a href="#target-2" class="arrow arrow-next"></a>
+                   </div>
+                   <div class="slideshow-item item-2">
+                      <div class="progress">2 of 4</div>
+                      <img src="Altja_jõgi_Lahemaal.jpg" alt="" />
+                      <a href="#target-1" class="arrow arrow-prev"></a>
+                      <a href="#target-3" class="arrow arrow-next"></a>
+                   </div>
+                   <div class="slideshow-item item-3">
+                      <div class="progress">3 of 4</div>
+                      <img src="beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg" alt="" />
+                      <a href="#target-2" class="arrow arrow-prev"></a>
+                      <a href="#target-4" class="arrow arrow-next"></a>
+                   </div>
+                   <div class="slideshow-item item-4">
+                      <div class="progress">4 of 4</div>
+                      <img src="tree-736885__480.jpg" alt="" />
+                      <a href="#target-3" class="arrow arrow-prev"></a>
+                      <a href="#target-1" class="arrow arrow-next"></a>
+                   </div>
+                </section>
+             </div>
+
+             <form action="action_page.php">
+                <div class="container1" id="contactme">
+                  <h1>Register Here</h1>
+                  <hr>
+              
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="Enter Email" name="email" id="email" required>
+              
+                  <label for="psw"><b>Username</b></label>
+                  <input type="password" placeholder="Enter Username" name="psw" id="psw" required>
+              
+                  <label for="psw-repeat"><b>Create New Password</b></label>
+                  <input type="password" placeholder="Create New Password" name="psw-repeat" id="psw-repeat" required>
+                  
+                  <button type="submit" class="registerbtn">Register</button>
+                </div>
+              
+              </form>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
